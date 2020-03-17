@@ -27,5 +27,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        source: $GITHUB_WORKSPACE
+        source: $GITHUB_WORKSPACE/index.html
         target: "/var/www/wtxtra.agency"
+        run: |
+          echo $GITHUB_WORKSPACE/index.html
