@@ -38,7 +38,5 @@ jobs:
       run: |
         mkdir -p ~/.ssh && chmod 700 ~/.ssh
         echo "$PRIVATE_KEY" | tr -d '\r' >> ~/.ssh/deployerkey
-        echo "StrictHostKeyChecking no" >> ~/.ssh/config
         sudo chmod 600 ~/.ssh/deployerkey
-        sudo chmod 600 ~/.ssh/config
         cap production deploy
