@@ -1,0 +1,311 @@
+# Logfile created on 2020-04-05 16:25:46 +0100 by logger.rb/56438
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-04-05 16:25:46 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [de874f11] Running /usr/bin/env mkdir -p /tmp as ubuntu@wtxtra.agency
+ DEBUG [de874f11] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-04-05 16:27:53 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [dd172f86] Running /usr/bin/env mkdir -p /tmp as ubuntu@wtxtra.agency
+ DEBUG [dd172f86] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-04-05 16:28:23 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [a30e93e5] Running /usr/bin/env mkdir -p /tmp as ubuntu@wtxtra.agency
+ DEBUG [a30e93e5] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-04-05 16:28:38 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [cbd663de] Running /usr/bin/env mkdir -p /tmp as ubuntu@wtxtra.agency
+ DEBUG [cbd663de] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-04-05 16:30:49 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e8bf2b28] Running /usr/bin/env mkdir -p /tmp as ubuntu@wtxtra.agency
+ DEBUG [e8bf2b28] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-04-05 16:31:25 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [7aa538da] Running /usr/bin/env mkdir -p /tmp as ubuntu@wtxtra.agency
+ DEBUG [7aa538da] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-04-05 16:33:48 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [49bebee8] Running /usr/bin/env mkdir -p /tmp as ubuntu@wtxtra.agency
+ DEBUG [49bebee8] Command: /usr/bin/env mkdir -p /tmp
+  INFO [49bebee8] Finished in 4.271 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wtxtra-production-mac.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wtxtra-production-mac.sh 100.0%
+  INFO [f06d123c] Running /usr/bin/env chmod 700 /tmp/git-ssh-wtxtra-production-mac.sh as ubuntu@wtxtra.agency
+ DEBUG [f06d123c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wtxtra-production-mac.sh
+  INFO [f06d123c] Finished in 1.007 seconds with exit status 0 (successful).
+  INFO [07a546b8] Running /usr/bin/env git ls-remote git@github.com:WeTalkSound/main-site.git HEAD as ubuntu@wtxtra.agency
+ DEBUG [07a546b8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git ls-remote git@github.com:WeTalkSound/main-site.git HEAD )
+ DEBUG [07a546b8] 	Warning: Permanently added 'github.com,140.82.112.3' (RSA) to the list of known hosts.
+ DEBUG [07a546b8] 	git@github.com: Permission denied (publickey).
+ DEBUG [07a546b8] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-04-05 16:48:21 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [2fd783e3] Running /usr/bin/env mkdir -p /tmp as ubuntu@wtxtra.agency
+ DEBUG [2fd783e3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2fd783e3] Finished in 3.932 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wtxtra-production-mac.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wtxtra-production-mac.sh 100.0%
+  INFO [720b44c5] Running /usr/bin/env chmod 700 /tmp/git-ssh-wtxtra-production-mac.sh as ubuntu@wtxtra.agency
+ DEBUG [720b44c5] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wtxtra-production-mac.sh
+  INFO [720b44c5] Finished in 1.157 seconds with exit status 0 (successful).
+  INFO [ea916619] Running /usr/bin/env git ls-remote git@github.com:WeTalkSound/main-site.git HEAD as ubuntu@wtxtra.agency
+ DEBUG [ea916619] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git ls-remote git@github.com:WeTalkSound/main-site.git HEAD )
+ DEBUG [ea916619] 	Warning: Permanently added the RSA host key for IP address '140.82.114.3' to the list of known hosts.
+ DEBUG [ea916619] 	cac572273e1f8f4501206f82f745ee8ce6e44b35	HEAD
+  INFO [ea916619] Finished in 1.327 seconds with exit status 0 (successful).
+  INFO [27d8118e] Running /usr/bin/env mkdir -p /var/www/wtxtra/shared /var/www/wtxtra/releases as ubuntu@wtxtra.agency
+ DEBUG [27d8118e] Command: /usr/bin/env mkdir -p /var/www/wtxtra/shared /var/www/wtxtra/releases
+ DEBUG [27d8118e] 	mkdir: 
+ DEBUG [27d8118e] 	cannot create directory ‘/var/www/wtxtra’
+ DEBUG [27d8118e] 	: Permission denied
+ DEBUG [27d8118e] 	
+ DEBUG [27d8118e] 	mkdir: 
+ DEBUG [27d8118e] 	cannot create directory ‘/var/www/wtxtra’
+ DEBUG [27d8118e] 	: Permission denied
+ DEBUG [27d8118e] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-04-05 16:49:28 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8b0ffc34] Running /usr/bin/env mkdir -p /tmp as ubuntu@wtxtra.agency
+ DEBUG [8b0ffc34] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8b0ffc34] Finished in 4.261 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wtxtra-production-mac.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wtxtra-production-mac.sh 100.0%
+  INFO [04817ce9] Running /usr/bin/env chmod 700 /tmp/git-ssh-wtxtra-production-mac.sh as ubuntu@wtxtra.agency
+ DEBUG [04817ce9] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wtxtra-production-mac.sh
+  INFO [04817ce9] Finished in 1.057 seconds with exit status 0 (successful).
+  INFO [6adfc15e] Running /usr/bin/env git ls-remote git@github.com:WeTalkSound/main-site.git HEAD as ubuntu@wtxtra.agency
+ DEBUG [6adfc15e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git ls-remote git@github.com:WeTalkSound/main-site.git HEAD )
+ DEBUG [6adfc15e] 	Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known hosts.
+ DEBUG [6adfc15e] 	cac572273e1f8f4501206f82f745ee8ce6e44b35	HEAD
+  INFO [6adfc15e] Finished in 1.399 seconds with exit status 0 (successful).
+  INFO [e0bbc82d] Running /usr/bin/env mkdir -p /var/www/deployerfront/shared /var/www/deployerfront/releases as ubuntu@wtxtra.agency
+ DEBUG [e0bbc82d] Command: /usr/bin/env mkdir -p /var/www/deployerfront/shared /var/www/deployerfront/releases
+  INFO [e0bbc82d] Finished in 0.795 seconds with exit status 0 (successful).
+ DEBUG [b554eaa2] Running [ -f /var/www/deployerfront/current/REVISION ] as ubuntu@wtxtra.agency
+ DEBUG [b554eaa2] Command: [ -f /var/www/deployerfront/current/REVISION ]
+ DEBUG [b554eaa2] Finished in 1.319 seconds with exit status 1 (failed).
+ DEBUG [bc8dc83e] Running [ -f /var/www/deployerfront/repo/HEAD ] as ubuntu@wtxtra.agency
+ DEBUG [bc8dc83e] Command: [ -f /var/www/deployerfront/repo/HEAD ]
+ DEBUG [bc8dc83e] Finished in 1.376 seconds with exit status 1 (failed).
+ DEBUG [783026f6] Running if test ! -d /var/www/deployerfront; then echo "Directory does not exist '/var/www/deployerfront'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [783026f6] Command: if test ! -d /var/www/deployerfront; then echo "Directory does not exist '/var/www/deployerfront'" 1>&2; false; fi
+ DEBUG [783026f6] Finished in 1.022 seconds with exit status 0 (successful).
+  INFO [0453608e] Running /usr/bin/env git clone --mirror git@github.com:WeTalkSound/main-site.git /var/www/deployerfront/repo as ubuntu@wtxtra.agency
+ DEBUG [0453608e] Command: cd /var/www/deployerfront && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git clone --mirror git@github.com:WeTalkSound/main-site.git /var/www/deployerfront/repo )
+ DEBUG [0453608e] 	Cloning into bare repository '/var/www/deployerfront/repo'...
+  INFO [0453608e] Finished in 2.042 seconds with exit status 0 (successful).
+ DEBUG [fdab3ada] Running if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [fdab3ada] Command: if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi
+ DEBUG [fdab3ada] Finished in 0.797 seconds with exit status 0 (successful).
+  INFO [63362a69] Running /usr/bin/env git remote set-url origin git@github.com:WeTalkSound/main-site.git as ubuntu@wtxtra.agency
+ DEBUG [63362a69] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git remote set-url origin git@github.com:WeTalkSound/main-site.git )
+  INFO [63362a69] Finished in 0.997 seconds with exit status 0 (successful).
+  INFO [99dc360b] Running /usr/bin/env git remote update --prune as ubuntu@wtxtra.agency
+ DEBUG [99dc360b] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [99dc360b] 	Fetching origin
+  INFO [99dc360b] Finished in 1.519 seconds with exit status 0 (successful).
+ DEBUG [19a104c4] Running if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [19a104c4] Command: if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi
+ DEBUG [19a104c4] Finished in 1.198 seconds with exit status 0 (successful).
+  INFO [3d1d4cae] Running /usr/bin/env mkdir -p /var/www/deployerfront/releases/20200405154939 as ubuntu@wtxtra.agency
+ DEBUG [3d1d4cae] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env mkdir -p /var/www/deployerfront/releases/20200405154939 )
+  INFO [3d1d4cae] Finished in 0.880 seconds with exit status 0 (successful).
+  INFO [e361f07a] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/deployerfront/releases/20200405154939 as ubuntu@wtxtra.agency
+ DEBUG [e361f07a] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/deployerfront/releases/20200405154939 )
+  INFO [e361f07a] Finished in 0.816 seconds with exit status 0 (successful).
+ DEBUG [e950136f] Running if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [e950136f] Command: if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi
+ DEBUG [e950136f] Finished in 1.190 seconds with exit status 0 (successful).
+ DEBUG [c8650fdd] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@wtxtra.agency
+ DEBUG [c8650fdd] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [c8650fdd] 	cac572273e1f8f4501206f82f745ee8ce6e44b35
+ DEBUG [c8650fdd] Finished in 0.953 seconds with exit status 0 (successful).
+ DEBUG [ca118402] Running if test ! -d /var/www/deployerfront/releases/20200405154939; then echo "Directory does not exist '/var/www/deployerfront/releases/20200405154939'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [ca118402] Command: if test ! -d /var/www/deployerfront/releases/20200405154939; then echo "Directory does not exist '/var/www/deployerfront/releases/20200405154939'" 1>&2; false; fi
+ DEBUG [ca118402] Finished in 1.122 seconds with exit status 0 (successful).
+  INFO [61b10763] Running /usr/bin/env echo "cac572273e1f8f4501206f82f745ee8ce6e44b35" > REVISION as ubuntu@wtxtra.agency
+ DEBUG [61b10763] Command: cd /var/www/deployerfront/releases/20200405154939 && /usr/bin/env echo "cac572273e1f8f4501206f82f745ee8ce6e44b35" > REVISION
+  INFO [61b10763] Finished in 0.903 seconds with exit status 0 (successful).
+  INFO [147051e9] Running /usr/bin/env ln -s /var/www/deployerfront/releases/20200405154939 /var/www/deployerfront/releases/current as ubuntu@wtxtra.agency
+ DEBUG [147051e9] Command: /usr/bin/env ln -s /var/www/deployerfront/releases/20200405154939 /var/www/deployerfront/releases/current
+  INFO [147051e9] Finished in 0.876 seconds with exit status 0 (successful).
+  INFO [df2c763d] Running /usr/bin/env mv /var/www/deployerfront/releases/current /var/www/deployerfront as ubuntu@wtxtra.agency
+ DEBUG [df2c763d] Command: /usr/bin/env mv /var/www/deployerfront/releases/current /var/www/deployerfront
+  INFO [df2c763d] Finished in 0.871 seconds with exit status 0 (successful).
+ DEBUG [d9086c93] Running /usr/bin/env ls -x /var/www/deployerfront/releases as ubuntu@wtxtra.agency
+ DEBUG [d9086c93] Command: /usr/bin/env ls -x /var/www/deployerfront/releases
+ DEBUG [d9086c93] 	20200405154939
+ DEBUG [d9086c93] Finished in 0.970 seconds with exit status 0 (successful).
+ DEBUG [ee830de3] Running if test ! -d /var/www/deployerfront/releases; then echo "Directory does not exist '/var/www/deployerfront/releases'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [ee830de3] Command: if test ! -d /var/www/deployerfront/releases; then echo "Directory does not exist '/var/www/deployerfront/releases'" 1>&2; false; fi
+ DEBUG [ee830de3] Finished in 1.008 seconds with exit status 0 (successful).
+  INFO [883773e3] Running /usr/bin/env echo "Branch master (at cac572273e1f8f4501206f82f745ee8ce6e44b35) deployed as release 20200405154939 by mac" >> /var/www/deployerfront/revisions.log as ubuntu@wtxtra.agency
+ DEBUG [883773e3] Command: cd /var/www/deployerfront/releases && /usr/bin/env echo "Branch master (at cac572273e1f8f4501206f82f745ee8ce6e44b35) deployed as release 20200405154939 by mac" >> /var/www/deployerfront/revisions.log
+  INFO [883773e3] Finished in 1.446 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-04-05 16:56:58 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [70fd6a33] Running /usr/bin/env mkdir -p /tmp as ubuntu@wtxtra.agency
+ DEBUG [70fd6a33] Command: /usr/bin/env mkdir -p /tmp
+  INFO [70fd6a33] Finished in 5.406 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wtxtra-production-mac.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wtxtra-production-mac.sh 100.0%
+  INFO [9cb3bfd7] Running /usr/bin/env chmod 700 /tmp/git-ssh-wtxtra-production-mac.sh as ubuntu@wtxtra.agency
+ DEBUG [9cb3bfd7] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wtxtra-production-mac.sh
+  INFO [9cb3bfd7] Finished in 0.860 seconds with exit status 0 (successful).
+  INFO [4814f12d] Running /usr/bin/env git ls-remote git@github.com:WeTalkSound/main-site.git HEAD as ubuntu@wtxtra.agency
+ DEBUG [4814f12d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git ls-remote git@github.com:WeTalkSound/main-site.git HEAD )
+ DEBUG [4814f12d] 	cac572273e1f8f4501206f82f745ee8ce6e44b35	HEAD
+  INFO [4814f12d] Finished in 1.520 seconds with exit status 0 (successful).
+  INFO [074e496c] Running /usr/bin/env mkdir -p /var/www/deployerfront/shared /var/www/deployerfront/releases as ubuntu@wtxtra.agency
+ DEBUG [074e496c] Command: /usr/bin/env mkdir -p /var/www/deployerfront/shared /var/www/deployerfront/releases
+  INFO [074e496c] Finished in 1.029 seconds with exit status 0 (successful).
+ DEBUG [5799238e] Running [ -f /var/www/deployerfront/current/REVISION ] as ubuntu@wtxtra.agency
+ DEBUG [5799238e] Command: [ -f /var/www/deployerfront/current/REVISION ]
+ DEBUG [5799238e] Finished in 1.793 seconds with exit status 0 (successful).
+ DEBUG [0d96a849] Running /usr/bin/env cat /var/www/deployerfront/current/REVISION 2>/dev/null as ubuntu@wtxtra.agency
+ DEBUG [0d96a849] Command: /usr/bin/env cat /var/www/deployerfront/current/REVISION 2>/dev/null
+ DEBUG [0d96a849] 	cac572273e1f8f4501206f82f745ee8ce6e44b35
+ DEBUG [0d96a849] Finished in 1.168 seconds with exit status 0 (successful).
+ DEBUG [f7f5b9a8] Running [ -f /var/www/deployerfront/repo/HEAD ] as ubuntu@wtxtra.agency
+ DEBUG [f7f5b9a8] Command: [ -f /var/www/deployerfront/repo/HEAD ]
+ DEBUG [f7f5b9a8] Finished in 0.884 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/deployerfront/repo
+ DEBUG [a4a4de51] Running if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [a4a4de51] Command: if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi
+ DEBUG [a4a4de51] Finished in 1.182 seconds with exit status 0 (successful).
+  INFO [4120ba13] Running /usr/bin/env git remote set-url origin git@github.com:WeTalkSound/main-site.git as ubuntu@wtxtra.agency
+ DEBUG [4120ba13] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git remote set-url origin git@github.com:WeTalkSound/main-site.git )
+  INFO [4120ba13] Finished in 1.086 seconds with exit status 0 (successful).
+  INFO [83367c4d] Running /usr/bin/env git remote update --prune as ubuntu@wtxtra.agency
+ DEBUG [83367c4d] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [83367c4d] 	Fetching origin
+  INFO [83367c4d] Finished in 1.358 seconds with exit status 0 (successful).
+ DEBUG [3f10d898] Running if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [3f10d898] Command: if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi
+ DEBUG [3f10d898] Finished in 1.247 seconds with exit status 0 (successful).
+  INFO [6251c951] Running /usr/bin/env mkdir -p /var/www/deployerfront/releases/20200405155712 as ubuntu@wtxtra.agency
+ DEBUG [6251c951] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env mkdir -p /var/www/deployerfront/releases/20200405155712 )
+  INFO [6251c951] Finished in 1.025 seconds with exit status 0 (successful).
+  INFO [eefb9cee] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/deployerfront/releases/20200405155712 as ubuntu@wtxtra.agency
+ DEBUG [eefb9cee] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/deployerfront/releases/20200405155712 )
+  INFO [eefb9cee] Finished in 1.096 seconds with exit status 0 (successful).
+ DEBUG [9d9d39d8] Running if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [9d9d39d8] Command: if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi
+ DEBUG [9d9d39d8] Finished in 1.022 seconds with exit status 0 (successful).
+ DEBUG [2f0a6861] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@wtxtra.agency
+ DEBUG [2f0a6861] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [2f0a6861] 	cac572273e1f8f4501206f82f745ee8ce6e44b35
+ DEBUG [2f0a6861] Finished in 1.024 seconds with exit status 0 (successful).
+ DEBUG [bf17266e] Running if test ! -d /var/www/deployerfront/releases/20200405155712; then echo "Directory does not exist '/var/www/deployerfront/releases/20200405155712'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [bf17266e] Command: if test ! -d /var/www/deployerfront/releases/20200405155712; then echo "Directory does not exist '/var/www/deployerfront/releases/20200405155712'" 1>&2; false; fi
+ DEBUG [bf17266e] Finished in 1.036 seconds with exit status 0 (successful).
+  INFO [0a7e2dd0] Running /usr/bin/env echo "cac572273e1f8f4501206f82f745ee8ce6e44b35" > REVISION as ubuntu@wtxtra.agency
+ DEBUG [0a7e2dd0] Command: cd /var/www/deployerfront/releases/20200405155712 && /usr/bin/env echo "cac572273e1f8f4501206f82f745ee8ce6e44b35" > REVISION
+  INFO [0a7e2dd0] Finished in 1.010 seconds with exit status 0 (successful).
+  INFO [ca88caf5] Running /usr/bin/env ln -s /var/www/deployerfront/releases/20200405155712 /var/www/deployerfront/releases/current as ubuntu@wtxtra.agency
+ DEBUG [ca88caf5] Command: /usr/bin/env ln -s /var/www/deployerfront/releases/20200405155712 /var/www/deployerfront/releases/current
+  INFO [ca88caf5] Finished in 1.050 seconds with exit status 0 (successful).
+  INFO [923eb735] Running /usr/bin/env mv /var/www/deployerfront/releases/current /var/www/deployerfront as ubuntu@wtxtra.agency
+ DEBUG [923eb735] Command: /usr/bin/env mv /var/www/deployerfront/releases/current /var/www/deployerfront
+  INFO [923eb735] Finished in 1.079 seconds with exit status 0 (successful).
+ DEBUG [1cc96295] Running /usr/bin/env ls -x /var/www/deployerfront/releases as ubuntu@wtxtra.agency
+ DEBUG [1cc96295] Command: /usr/bin/env ls -x /var/www/deployerfront/releases
+ DEBUG [1cc96295] 	20200405154939	20200405155712
+ DEBUG [1cc96295] Finished in 1.138 seconds with exit status 0 (successful).
+ DEBUG [13f9dace] Running if test ! -d /var/www/deployerfront/releases; then echo "Directory does not exist '/var/www/deployerfront/releases'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [13f9dace] Command: if test ! -d /var/www/deployerfront/releases; then echo "Directory does not exist '/var/www/deployerfront/releases'" 1>&2; false; fi
+ DEBUG [13f9dace] Finished in 0.934 seconds with exit status 0 (successful).
+  INFO [912e6c47] Running /usr/bin/env echo "Branch master (at cac572273e1f8f4501206f82f745ee8ce6e44b35) deployed as release 20200405155712 by mac" >> /var/www/deployerfront/revisions.log as ubuntu@wtxtra.agency
+ DEBUG [912e6c47] Command: cd /var/www/deployerfront/releases && /usr/bin/env echo "Branch master (at cac572273e1f8f4501206f82f745ee8ce6e44b35) deployed as release 20200405155712 by mac" >> /var/www/deployerfront/revisions.log
+  INFO [912e6c47] Finished in 1.315 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-04-05 17:01:32 +0100 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [4ba65dd7] Running /usr/bin/env mkdir -p /tmp as ubuntu@wtxtra.agency
+ DEBUG [4ba65dd7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4ba65dd7] Finished in 4.311 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-wtxtra-production-mac.sh 0.0%
+  INFO Uploading /tmp/git-ssh-wtxtra-production-mac.sh 100.0%
+  INFO [6d44c257] Running /usr/bin/env chmod 700 /tmp/git-ssh-wtxtra-production-mac.sh as ubuntu@wtxtra.agency
+ DEBUG [6d44c257] Command: /usr/bin/env chmod 700 /tmp/git-ssh-wtxtra-production-mac.sh
+  INFO [6d44c257] Finished in 1.297 seconds with exit status 0 (successful).
+  INFO [a22803ce] Running /usr/bin/env git ls-remote git@github.com:WeTalkSound/main-site.git HEAD as ubuntu@wtxtra.agency
+ DEBUG [a22803ce] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git ls-remote git@github.com:WeTalkSound/main-site.git HEAD )
+ DEBUG [a22803ce] 	Warning: Permanently added the RSA host key for IP address '140.82.112.4' to the list of known hosts.
+ DEBUG [a22803ce] 	cac572273e1f8f4501206f82f745ee8ce6e44b35	HEAD
+  INFO [a22803ce] Finished in 1.637 seconds with exit status 0 (successful).
+  INFO [8a6772c7] Running /usr/bin/env mkdir -p /var/www/deployerfront/shared /var/www/deployerfront/releases as ubuntu@wtxtra.agency
+ DEBUG [8a6772c7] Command: /usr/bin/env mkdir -p /var/www/deployerfront/shared /var/www/deployerfront/releases
+  INFO [8a6772c7] Finished in 1.054 seconds with exit status 0 (successful).
+ DEBUG [71c29cfd] Running [ -f /var/www/deployerfront/current/REVISION ] as ubuntu@wtxtra.agency
+ DEBUG [71c29cfd] Command: [ -f /var/www/deployerfront/current/REVISION ]
+ DEBUG [71c29cfd] Finished in 0.854 seconds with exit status 0 (successful).
+ DEBUG [a5d01e95] Running /usr/bin/env cat /var/www/deployerfront/current/REVISION 2>/dev/null as ubuntu@wtxtra.agency
+ DEBUG [a5d01e95] Command: /usr/bin/env cat /var/www/deployerfront/current/REVISION 2>/dev/null
+ DEBUG [a5d01e95] 	cac572273e1f8f4501206f82f745ee8ce6e44b35
+ DEBUG [a5d01e95] Finished in 0.847 seconds with exit status 0 (successful).
+ DEBUG [f25c5846] Running [ -f /var/www/deployerfront/repo/HEAD ] as ubuntu@wtxtra.agency
+ DEBUG [f25c5846] Command: [ -f /var/www/deployerfront/repo/HEAD ]
+ DEBUG [f25c5846] Finished in 0.762 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/deployerfront/repo
+ DEBUG [d5755f0f] Running if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [d5755f0f] Command: if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi
+ DEBUG [d5755f0f] Finished in 1.113 seconds with exit status 0 (successful).
+  INFO [876c1fa2] Running /usr/bin/env git remote set-url origin git@github.com:WeTalkSound/main-site.git as ubuntu@wtxtra.agency
+ DEBUG [876c1fa2] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git remote set-url origin git@github.com:WeTalkSound/main-site.git )
+  INFO [876c1fa2] Finished in 1.075 seconds with exit status 0 (successful).
+  INFO [c92c653a] Running /usr/bin/env git remote update --prune as ubuntu@wtxtra.agency
+ DEBUG [c92c653a] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [c92c653a] 	Fetching origin
+  INFO [c92c653a] Finished in 1.401 seconds with exit status 0 (successful).
+ DEBUG [eb1eb83e] Running if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [eb1eb83e] Command: if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi
+ DEBUG [eb1eb83e] Finished in 1.136 seconds with exit status 0 (successful).
+  INFO [973b2c58] Running /usr/bin/env mkdir -p /var/www/deployerfront/releases/20200405160145 as ubuntu@wtxtra.agency
+ DEBUG [973b2c58] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env mkdir -p /var/www/deployerfront/releases/20200405160145 )
+  INFO [973b2c58] Finished in 0.779 seconds with exit status 0 (successful).
+  INFO [3333e5f0] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/deployerfront/releases/20200405160145 as ubuntu@wtxtra.agency
+ DEBUG [3333e5f0] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/deployerfront/releases/20200405160145 )
+  INFO [3333e5f0] Finished in 1.135 seconds with exit status 0 (successful).
+ DEBUG [24633874] Running if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [24633874] Command: if test ! -d /var/www/deployerfront/repo; then echo "Directory does not exist '/var/www/deployerfront/repo'" 1>&2; false; fi
+ DEBUG [24633874] Finished in 1.199 seconds with exit status 0 (successful).
+ DEBUG [1a53eb4c] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@wtxtra.agency
+ DEBUG [1a53eb4c] Command: cd /var/www/deployerfront/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-wtxtra-production-mac.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [1a53eb4c] 	cac572273e1f8f4501206f82f745ee8ce6e44b35
+ DEBUG [1a53eb4c] Finished in 1.251 seconds with exit status 0 (successful).
+ DEBUG [76fb6c1d] Running if test ! -d /var/www/deployerfront/releases/20200405160145; then echo "Directory does not exist '/var/www/deployerfront/releases/20200405160145'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [76fb6c1d] Command: if test ! -d /var/www/deployerfront/releases/20200405160145; then echo "Directory does not exist '/var/www/deployerfront/releases/20200405160145'" 1>&2; false; fi
+ DEBUG [76fb6c1d] Finished in 1.090 seconds with exit status 0 (successful).
+  INFO [171aecfd] Running /usr/bin/env echo "cac572273e1f8f4501206f82f745ee8ce6e44b35" > REVISION as ubuntu@wtxtra.agency
+ DEBUG [171aecfd] Command: cd /var/www/deployerfront/releases/20200405160145 && /usr/bin/env echo "cac572273e1f8f4501206f82f745ee8ce6e44b35" > REVISION
+  INFO [171aecfd] Finished in 0.973 seconds with exit status 0 (successful).
+  INFO [2c314ddf] Running /usr/bin/env ln -s /var/www/deployerfront/releases/20200405160145 /var/www/deployerfront/releases/current as ubuntu@wtxtra.agency
+ DEBUG [2c314ddf] Command: /usr/bin/env ln -s /var/www/deployerfront/releases/20200405160145 /var/www/deployerfront/releases/current
+  INFO [2c314ddf] Finished in 0.864 seconds with exit status 0 (successful).
+  INFO [adebe587] Running /usr/bin/env mv /var/www/deployerfront/releases/current /var/www/deployerfront as ubuntu@wtxtra.agency
+ DEBUG [adebe587] Command: /usr/bin/env mv /var/www/deployerfront/releases/current /var/www/deployerfront
+  INFO [adebe587] Finished in 0.960 seconds with exit status 0 (successful).
+ DEBUG [dface41c] Running /usr/bin/env ls -x /var/www/deployerfront/releases as ubuntu@wtxtra.agency
+ DEBUG [dface41c] Command: /usr/bin/env ls -x /var/www/deployerfront/releases
+ DEBUG [dface41c] 	20200405154939	20200405155712	20200405160145
+ DEBUG [dface41c] Finished in 0.953 seconds with exit status 0 (successful).
+ DEBUG [1a6e3178] Running if test ! -d /var/www/deployerfront/releases; then echo "Directory does not exist '/var/www/deployerfront/releases'" 1>&2; false; fi as ubuntu@wtxtra.agency
+ DEBUG [1a6e3178] Command: if test ! -d /var/www/deployerfront/releases; then echo "Directory does not exist '/var/www/deployerfront/releases'" 1>&2; false; fi
+ DEBUG [1a6e3178] Finished in 1.293 seconds with exit status 0 (successful).
+  INFO [1566d986] Running /usr/bin/env echo "Branch master (at cac572273e1f8f4501206f82f745ee8ce6e44b35) deployed as release 20200405160145 by mac" >> /var/www/deployerfront/revisions.log as ubuntu@wtxtra.agency
+ DEBUG [1566d986] Command: cd /var/www/deployerfront/releases && /usr/bin/env echo "Branch master (at cac572273e1f8f4501206f82f745ee8ce6e44b35) deployed as release 20200405160145 by mac" >> /var/www/deployerfront/revisions.log
+  INFO [1566d986] Finished in 1.037 seconds with exit status 0 (successful).
